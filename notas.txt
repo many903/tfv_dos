@@ -1,0 +1,29 @@
+OCR_TO_EXCEL_APP/
+│
+├── OCR_APP.py                    # Aplicación principal
+├── Instalar_OCR.exe              # Instalador para Windows
+├── requirements.txt              # Dependencias de Python
+├── README.txt                    # Instrucciones de uso
+│
+├── icon.ico                      # Icono de la aplicación
+├── ejemplo.png                   # Imagen de ejemplo para probar
+│
+├── config/
+│   └── settings.json             # Configuración de la app
+│
+├── tessdata/                     # Datos de idiomas para Tesseract
+│   ├── eng.traineddata           # Inglés (obligatorio)
+│   └── spa.traineddata           # Español (opcional)
+│
+├── docs/
+│   ├── manual_usuario.pdf        # Manual en PDF
+│   └── tutorial_video.mp4        # Video tutorial
+│
+├── ejemplos/
+│   ├── factura_ejemplo.jpg       # Ejemplo de factura
+│   ├── tabla_ejemplo.png         # Ejemplo de tabla
+│   └── resultado_ejemplo.xlsx    # Resultado de exportación
+│
+└── utils/
+    ├── preprocesar_imagen.py     # Herramientas de procesamiento
+    └── convertir_pdf.py          # Conversor de PDF a imagen

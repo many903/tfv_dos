@@ -1,0 +1,34 @@
+{
+    "tesseract_path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+    "language": "eng",
+    "theme": "light",
+    "auto_save": true,
+    "output_folder": "exportados",
+    "recent_files": [],
+    "image_preprocessing": {
+        "grayscale": true,
+        "contrast": 1.5,
+        "brightness": 1.0,
+        "denoise": true,
+        "threshold": "adaptive",
+        "deskew": true
+    },
+    "ocr_settings": {
+        "psm": 6,
+        "oem": 3,
+        "dpi": 300,
+        "preserve_interword_spaces": 1
+    },
+    "export_settings": {
+        "format": "xlsx",
+        "include_timestamp": true,
+        "auto_open": false,
+        "sheet_name": "OCR_Data"
+    },
+    "ui_settings": {
+        "font_size": 10,
+        "font_family": "Segoe UI",
+        "show_grid": true,
+        "alternate_row_colors": true
+    }
+}
